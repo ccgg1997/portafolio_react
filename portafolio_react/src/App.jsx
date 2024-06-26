@@ -1,12 +1,27 @@
-import { useState } from 'react'
-import './App.css'
+import Navbar from "./Components/Navbar"
+import Hero from "./Components/Hero"
+import About from "./Components/About"
+import Skill from "./Components/Skill"
+import Services from "./Components/Services"
+import Projects from "./Components/Projects"
+import Testimonials from "./Components/Testimonials"
+import Footer from "./Components/Footer"
+import Contacts from "./Components/Contacts"
 
 function App() {
 
 
   return (
     <>
-      <h1>Mi primer titulo</h1>
+      <Navbar/>
+      <Hero/>
+      <About/>
+      <Skill/>
+      <Services/>
+      <Projects/>
+      <Testimonials/>
+      <Contacts/>
+      <Footer/>
     </>
   )
 }
